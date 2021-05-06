@@ -1,4 +1,4 @@
-## Comandos úteis do dia a dia de um programador(a)
+## Comandos úteis do dia a dia de um(a) programador(a)
 
 ### Comandos para:
 - Brew
