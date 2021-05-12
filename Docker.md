@@ -31,3 +31,13 @@ docker stop CONTAINER_ID
 ```
 docker rm CONTAINER ID
 ```
+
+### Iniciar todos os containers
+```
+docker start  $(docker ps -a -q) 
+```
+
+### Reniciar todos os containers
+```
+docker restart  $(docker ps -a -q) 
+```
