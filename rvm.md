@@ -13,7 +13,7 @@ Depois rodar esse comando:
 ### Criar um contexto com uma versão do Ruby
 
 ```
-rvm use 2.7.0@rep_nota_1000 --create --rvmrc
+rvm use 2.7.0@context_name --create --rvmrc
 ```
 
 ### ERRO: Rvm ruby Permissions denied

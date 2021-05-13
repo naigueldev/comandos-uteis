@@ -27,9 +27,19 @@ docker ps -al
 docker stop CONTAINER_ID
 ```
 
+### Parar todos os containers
+```
+docker stop $(docker ps -a -q)
+```
+
 ### Deletar um container
 ```
 docker rm CONTAINER ID
+```
+
+### Deletar todos os containers
+```
+docker rm $(docker ps -a -q)
 ```
 
 ### Iniciar todos os containers
